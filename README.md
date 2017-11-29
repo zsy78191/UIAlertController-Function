@@ -25,10 +25,10 @@ UIAlertController* c = [UIAlertController alertControllerWithTitle:NSLocalizedSt
 
 之后
 
-```mm
+```objectivec
 DDActionSheet()
-.titled(@"更多操作")		//标题
-//.descripted(@"描述")   //描述 
+.titled(@"更多操作")      //设置标题
+//.descripted(@"描述")   //设置描述 
 .cancell(@"取消")
 .recommend(@"删除",^(UIAlertAction * _Nonnull action, UIAlertController * _Nonnull alert) {
 	// 删除操作
@@ -39,4 +39,4 @@ DDActionSheet()
 .show(self);
 ```
 
-相关项目 (NSArray-Functional)[https://github.com/zsy78191/NSArray-Functional]
+相关项目 [NSArray-Functional](https://github.com/zsy78191/NSArray-Functional)
